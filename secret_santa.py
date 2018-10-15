@@ -57,7 +57,6 @@ for name in names:
     print(name)
     print(person1_choices)
 
-
     document = Document()
     document.add_heading('Secret Santa', 0)
     document.add_paragraph('You are: ' + name)
@@ -67,3 +66,4 @@ for name in names:
     document.add_paragraph(person1_choices[2], style='List Bullet')
     document.add_paragraph('Yay! Merry Xmas! :)')
     document.save(name +"_secret_santa.docx")
+
